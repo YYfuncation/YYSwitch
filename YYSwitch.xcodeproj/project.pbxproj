@@ -13,6 +13,7 @@
 		AC39768621DD9FF40017F369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39768521DD9FF40017F369 /* Assets.xcassets */; };
 		AC39768921DD9FF40017F369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39768721DD9FF40017F369 /* LaunchScreen.storyboard */; };
 		AC39768C21DD9FF40017F369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39768B21DD9FF40017F369 /* main.m */; };
+		AC39769421DDA0190017F369 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC39769221DDA0190017F369 /* SwitchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC39768821DD9FF40017F369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC39768A21DD9FF40017F369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC39768B21DD9FF40017F369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC39769221DDA0190017F369 /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		AC39769321DDA0190017F369 /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AC39767B21DD9FF20017F369 /* YYSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				AC39769321DDA0190017F369 /* SwitchView.h */,
+				AC39769221DDA0190017F369 /* SwitchView.m */,
 				AC39767C21DD9FF20017F369 /* AppDelegate.h */,
 				AC39767D21DD9FF20017F369 /* AppDelegate.m */,
 				AC39767F21DD9FF20017F369 /* ViewController.h */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC39769421DDA0190017F369 /* SwitchView.m in Sources */,
 				AC39768121DD9FF20017F369 /* ViewController.m in Sources */,
 				AC39768C21DD9FF40017F369 /* main.m in Sources */,
 				AC39767E21DD9FF20017F369 /* AppDelegate.m in Sources */,
